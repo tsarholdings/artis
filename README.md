@@ -1,4 +1,4 @@
-# Artis :postbox::moneybag::relaxed:
+# Artis :postbox:+:moneybag:=:relaxed:
 Artis is a complete eCommerce framework for Laravel.
 
 <p>
