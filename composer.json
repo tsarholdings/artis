@@ -1,0 +1,40 @@
+{
+    "name": "tsarholdings/artis",
+    "description": "Artis is a complete eCommerce framework for Laravel.",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/tsarholdings/artis/issues",
+        "source": "https://github.com/tsarholdings/artis"
+    },
+    "authors": [
+        {
+            "name": "Milos Dakic",
+            "email": "milos@tsarholdings.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "5.4.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "TsarHoldings\\Artis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TsarHoldings\\Tests\\Artis\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
