@@ -1,6 +1,7 @@
 {
     "name": "tsarholdings/artis",
     "description": "Artis is a complete eCommerce framework for Laravel.",
+    "keywords": ["laravel", "artis", "commerce", "platform", "ecommerce", "shop"],
     "type": "project",
     "license": "MIT",
     "support": {
@@ -15,7 +16,9 @@
     ],
     "require": {
         "php": ">=7.0",
-        "illuminate/database": "5.4.*"
+        "illuminate/database": "5.4.*",
+        "illuminate/support": "5.4.*",
+        "nesbot/carbon": "^1.22"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.5",
@@ -34,6 +37,9 @@
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
