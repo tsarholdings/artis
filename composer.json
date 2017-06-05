@@ -41,6 +41,12 @@
     "scripts": {
         "test": "phpunit"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
