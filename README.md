@@ -9,6 +9,11 @@ Artis is a complete eCommerce framework for Laravel.
 
 ## Installation
 
+To install and use Artis in your Laravel project, simply run:
+```
+composer require tsarholdings/artis
+```
+
 ## Usage
 
 ## Contributing
