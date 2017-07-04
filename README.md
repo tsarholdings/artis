@@ -1,4 +1,6 @@
 # Artis :postbox:+:moneybag:=:relaxed:
+
+[![Join the chat at https://gitter.im/tsarholdings/artis](https://badges.gitter.im/tsarholdings/artis.svg)](https://gitter.im/tsarholdings/artis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Artis is a complete eCommerce framework for Laravel.
 <p>
 <a href="https://travis-ci.org/tsarholdings/artis"><img src="https://travis-ci.org/tsarholdings/artis.svg" alt="Build Status"></a>
